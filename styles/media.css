@@ -1,0 +1,369 @@
+
+
+@media (max-width: 500px) { 
+    .header{
+        width: 100%;
+        height: 70vh;  
+        background-position: center;
+
+    }
+    .navbar-toggler {
+        background-color: rgb(216, 215, 215);
+    }
+    .header-section{
+        position: relative;
+    }
+
+    .navbar-brand {
+     margin: 10px 20px;
+    }
+    .navbar-brand.logo img{
+        width: 110px;
+    }
+    .text-logo{
+        font-size: 12px;
+    }
+ 
+    
+   .header-section_text  {
+    position: absolute;
+    top:-200px;
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 700;
+    width: 370px;
+    
+   }
+   .header-forms {
+    display: none;
+   }
+   .btn-form.btn-form_none{
+    display: block;
+    width: 180px;
+    height: 43px;
+    font-size: 13px;
+    
+   
+   }
+
+   .main-container {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding-bottom: 3rem;
+    
+   }
+
+   .main-img{
+    display: none;
+   }
+   .img-video{
+    position: static;
+   }
+
+   .main-right-container {
+    margin-top: 5px;
+    margin-left: 0px;
+    line-height: 22px;
+   
+}
+.main-right-container h4 {
+    font-size: 14px;
+}
+.main-right-container h2{
+    font-size: 22px;
+    line-height: 23px;
+    font-weight: bolder;
+    width: 380px;
+}
+.main-right-container p {
+    font-size: 15px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    width: 370px;
+}
+.btn-main {
+    display: flex;
+    /* margin: 0 auto; */
+    margin-left: 110px;
+    margin-bottom: 40px;
+    padding: 10px 15px;
+    font-size: 13px;
+
+}
+.img-video{
+     position: static;
+}
+.section{
+    width: 100%;
+}
+.main-section{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.main-section_info {
+    padding-top: 50px;
+    
+}
+.main-section_info h4 {
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.main-section_info h2 {
+   
+    font-size: 1.5rem;
+   
+}
+.main-section_images{
+    display: none;
+}
+.main-section_info p {
+
+    font-size: 16px;
+    line-height: 23px;
+}
+.offering-item {
+    font-size: 13px;
+}
+
+.offering-item_span {
+    font-size: 16px;
+}
+.offering-items li {
+    line-height: 20px;
+}
+
+
+.btn-section {
+   position: relative;
+   left: 90px;
+   padding: 8px 18px;
+   font-size: 13px;
+}
+
+.photo-card_info {
+    text-align: left;
+    padding-bottom: 20px;
+    /* padding-left: 10px; */
+    line-height: 30px;
+}
+.photo-card{
+    width: 100%;
+}
+.image{
+    width: 300px;
+}
+.scrool{
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+}
+.photo-card_info h4 {
+    font-size: 15px;
+}
+.photo-card_info h2 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+.overlay {
+    border-radius: 25px;
+    height: 70px;
+}
+.stars {
+    width: 60px;
+    height: 28px;
+}
+
+.overlay-title_info {
+    padding-bottom: 100px;
+    padding-right: 30px;
+}
+.overlay_name_info{
+    display: none;
+}
+.overlay-title_info h3 {
+    font-size: 18px;
+}
+
+.text {
+    top: 520px;
+}
+.overlay_price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    width: 65px;
+    height: 30px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fdfdfd;
+    background: rgba(255, 255, 255, .3);
+}
+.photo-card_bottom {
+    justify-content: left;
+}
+.btn-bottom_card {
+    padding: 9px 25px ;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.section-block_impression{
+    background-color: rgb(243, 247, 250);
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.block_imperssion-info{
+    align-items: start;
+    line-height: 30px;
+}
+.block_imperssion-info h4{
+    font-size: 16px;
+}
+.block_imperssion-info h2 {
+    font-size: 24px;
+}
+.block_impression_card{
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.impression_card{
+    display: block;
+    gap: 20px;
+    background-color: var(--text-color);
+    border-radius: 10px;
+    padding: 0px;
+    box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.5);
+ 
+}
+.impression_card_photo{
+    width: 300px;
+   
+}
+.impression_card_photo img{
+    width: 100%;
+    height: 300px;
+    /* padding-bottom: 50px; */
+} 
+.impression_card_info{
+    padding: 10px;
+    padding-top: 5px;
+}
+.card_info_caption {
+    font-size: 19px;
+    line-height: 23px;
+}
+.card_info{
+    padding-top: 15px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.card_info_news{
+    padding-top: 20px;
+    padding-bottom: 3px;
+}
+.news_right{
+    padding-top: 42px;
+}
+.section-photoreport {
+    padding-top:40px ;
+    padding-bottom: 50px;   
+}
+.block_imperssion-info{
+   padding-left: 10px;
+   line-height: 25px;
+}
+.photoreport{ 
+    padding-top: 30px;
+    display: flex;
+    gap: 15px;
+   }
+   .photoreport img {
+    width: 280px;
+    height: 250px;
+   }
+   .footer-section{
+    display: block;
+    position: static;
+    width: 380px;
+    height: 330px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+   }
+  
+   .footer-section_info {
+    display: none;
+   }
+
+   .footer-section_info_none{
+    display: block;
+    line-height: 22px;
+    padding-right: 15px;
+    padding-left: 15px;
+   }
+   .footer-section_info_none h4 {
+    color: var(--section-color);
+    font-size: 16px;
+    padding-top: 15px;
+}
+   .footer-section_info_none h2{
+    color: var(--text-color-basic);
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: 30px;
+   }
+   .footer-section_form{
+    padding-left: 15px;
+   }
+   .btn-footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+   .footer-section_form label{
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+   }
+   .footer-section_form a{
+    font-size: 14px;
+   }
+   .footer_background{
+    padding: 0px;
+   }
+   .footer{
+    display: block;
+    padding-top: 50px;
+   }
+   .footer_info p {
+   width: 390px;
+   }
+   .footer_adress {
+    padding-top: 40px;
+   }
+   .footer_messenger{
+    padding-bottom: 40px;
+   }
+    .footer_messenger img {
+        width: 25px;
+    }
+    .footer_info {
+        padding: 10px 0;
+    }
+    .photoreport{
+        display: flex;
+        overflow: scroll;
+        width: 100%;
+    }
+    .block_impression_card{
+        display: flex;
+        overflow: scroll;
+        width: 100%;
+    }
+}
